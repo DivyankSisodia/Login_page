@@ -15,7 +15,7 @@ class _SignInPageState extends State<SignInPage> {
         backgroundColor: Colors.green,
       ),
       drawer: Drawer(
-        backgroundColor: Color.fromARGB(255, 75, 235, 158),
+        backgroundColor: const Color.fromARGB(255, 75, 235, 158),
         child: ListView(
           children:  [
             const SizedBox(height: 50,),
@@ -43,7 +43,6 @@ class _SignInPageState extends State<SignInPage> {
             Padding(
               padding: const EdgeInsets.all(17.0),
               child: Container(
-                
                 child: const Center(
                   child: Text(
                     'I am a very passionate frontend developer and have a good hold on Data Structure and Agorithms',
