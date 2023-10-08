@@ -9,6 +9,7 @@ class SignInPage extends StatefulWidget {
 
 class _SignInPageState extends State<SignInPage> {
   @override
+  // learning drawer and functionalities
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
